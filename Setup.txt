@@ -1,0 +1,43 @@
+
+
+
+1.	Buka Software Arduino IDE.
+
+2.	Hubungkan Papan Arduino ke laptop dengan kabel USB/Port printer.
+
+3.	Upload SourceCode/Skecth. 
+
+
+Perancangan keseluruhan sistem mencakup semua rancangan drum elektrik berbasis arduino. Berikut tahap-tahap rancangan drum elektrik:
+
+
+
+1.	Siapkan kerangka drum yang sudah jadi dan sudah terpasang baut besi.
+
+2.	Siapkan pad yang sudah dirangkai dengan sensor piezoelectric, busa foam, dan karet.
+
+3.	Siapkan cymbal hi-hat dan cymbal crash yang sudah dirangkai dengan sensor piezoelectric, karet, ring besi dan baut besi.
+
+4.	Siapkan bass drum yang sudah terpasang sensor piezoelectric dan siapkan juga pedal drum untuk media menginjak.
+
+5.	Masukan pad yang sudah jadi ke lubang sambungan L dan sambungan T yang ada di kerangka drum.
+
+6.	Masukan cymbal yang sudah jadi ke lubang kerangka drum samping kiri untuk cymbal hi-hat dan samping kanan untuk cymbal crash.
+
+7.	Simpan posisi bass drum di bawah tengah kerangka drum.
+
+8.	Hubungkan semua komponen sensor piezoelectric, resistor, kabel jamper (-) dan kabel jamper (+) pada breadboard. Kemudian kabel jamper (+) dihubungkan lagi pada port analog arduino.
+
+9.	Hubungkan arduino uno ke laptop/personal computer dengan kabel USB.
+
+10.	Jalankan software Hairless MIDI (Musical Instrument Digital Interface) sebagai penghantar pesan midi ke software virtual drum atau addictive drums dengan cara mengklik tabel serial port lalu pilih Arduino Uno (COM16), kemudian pilih midi out dengan cara mengklik tabel pilihan dan pilih loopMIDI Port.
+
+11.	Jalankan Software FL Studio 12 (Fruity loops).
+
+12.	Jalankan Software Addictive Drums.
+
+13.	Settings audio yang ada pada Software FL Studio 12 (Fruity loops).
+
+14.	Hubungkan laptop/personal computer dengan sound system menggunakan kabel jack.
+
+15.	Hidupkan sound system dan atur volume suaranya. Demikian drum elektrik siap di uji dengan cara dipukul dengan stik drum.
